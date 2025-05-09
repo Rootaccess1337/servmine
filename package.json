@@ -1,0 +1,33 @@
+{
+  "name": "minecraft.io",
+  "version": "0.0.1",
+  "dependencies": {
+    "@types/node": "^8.0.1",
+    "debug": "^2.6.8",
+    "events": "^1.1.1",
+    "minecraft-data": "^2.17.0",
+    "minecraft-protocol": "^1.3.0",
+    "nanotimer": "^0.3.14",
+    "prismarine-biome": "^1.0.1",
+    "prismarine-block": "^1.0.1",
+    "prismarine-chunk": "^1.7.0",
+    "spiralloop": "^1.0.2",
+    "vec3": "^0.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.mand.me:root/minecraft.io.git"
+  },
+  "private": true,
+  "license": "MIT",
+  "author": "Mand",
+  "description": "A minecraft server written in javascript using node-minecraft-protocol",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.3.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-typescript": "^3.1.7",
+    "typescript": "^2.3.4"
+  }
+}
